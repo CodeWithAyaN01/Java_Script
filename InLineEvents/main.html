@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Understanding Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--inline event handeling-->
+<button onclick="console.log('Hello bro kaise ho')">
+    Print.
+</button>
+
+<button ondblclick="console.log('Button was clicked 2 times')">
+    Click me 2 times
+</button>
+
+<button onmouseenter= buttonAnimation() onclick="console.log('Clicked the hover button')" id="Hover_btn" onmouseleave="buttonAnimation()"> Get it Closer </button>
+<script src="script.js"></script>
+</body>
+</html>
