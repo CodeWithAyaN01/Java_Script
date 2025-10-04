@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(0, 0, 0, 0.87);
+
+}
+button {
+    background-color: beige;
+    font-size: 11px;
+}
+#a1{
+    color: white;
+    text-align: center;
+}
+#a2{
+    text-align: -moz-left;
+    color: white;
+}
+#buttonYes {
+    padding: 15px 40px;
+    font-size: 20px;
+    background: #00801c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*the use of class is here*/
+.para{
+    color: whitesmoke;
+    text-align: left;
+}
+
+/*class for the headigFor2nd*/
+
+.headingFor2nd{
+    color: white;
+    text-align : left;
+}
+#GoodPara{
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    margin: 20px;
+    text-align: justify;
+}
+.list-kuchv{
+    color: white;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 5px;
+}

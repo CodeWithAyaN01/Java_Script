@@ -1,0 +1,13 @@
+.box{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50px;
+}
+#change-button{
+    text-align: center;
+    background-color: grey;
+}

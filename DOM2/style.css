@@ -1,0 +1,10 @@
+.manyDivs{
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    margin: 50px;
+    background-color: magenta;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
