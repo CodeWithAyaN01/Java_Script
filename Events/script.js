@@ -11,5 +11,7 @@ let btn1 = document.querySelector("#btn1");
 
 btn1.addEventListener("click", () => {
     console.log("Button was clicked through Event Listener");
+    window.location.href = "file:///D:/# C Drive/_Coding/Java_Script/RockPaparGame/main.html";
 
+    
 })

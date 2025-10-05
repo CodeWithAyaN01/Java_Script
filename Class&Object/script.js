@@ -1,6 +1,11 @@
 console.log("Js loaded");
 
 class cars {
+
+    cars(brand) {
+        console.log("A Constructor Was created");
+        this.brand = brand;
+    }
     start() {
         console.log("This is a Start Function");
     }
@@ -8,7 +13,6 @@ class cars {
         console.log("This is a Stop Function");
     }
 }
+let fortuner = new cars("Toyota");
 
-let obj1 = new cars();
 
-console.log(obj1.start());
